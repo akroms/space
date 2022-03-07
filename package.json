@@ -1,0 +1,23 @@
+{
+    "name": "space",
+    "version": "1.0.0",
+    "description": "Space landing page using costumized bootstrap framework",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass --watch ./private/scss/style.scss ./private/css/style.css",
+        "purgecss": "purgecss --css ./private/css/style.css --content ./index.html --output ./public/css/style.css"
+    },
+    "keywords": [
+        "html",
+        "css",
+        "js",
+        "bootstrap"
+    ],
+    "author": "Akrom Abdulvokhov",
+    "license": "MIT ",
+    "dependencies": {
+        "bootstrap": "^5.1.3",
+        "dart-sass": "^1.25.0",
+        "purgecss": "^4.1.3"
+    }
+}
